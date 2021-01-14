@@ -4,6 +4,7 @@ const hbs=require('hbs')
 const geocode=require('./utils/geoloca')
 const forecode=require('./utils/fore')
 const path=require('path')
+const port=process.env.PORT || 3000
 const publicpath=path.join(__dirname,'../public')
 const viewpath=path.join(__dirname,'../src/templates/views')
 const partialpath=path.join(__dirname,'../src/templates/partials')
@@ -73,6 +74,6 @@ app.get('/*',function(req,res){
 })
 
 
-app.listen(3000,()=>{
-    console.log('we r on port 3000')
+app.listen(port,()=>{
+    console.log('we r on port')
 })

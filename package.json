@@ -1,0 +1,19 @@
+{
+  "name": "expres",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haiderabrar/hadi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haiderabrar/hadi/issues"
+  },
+  "homepage": "https://github.com/Haiderabrar/hadi#readme"
+}
